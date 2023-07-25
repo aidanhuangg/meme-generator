@@ -7,11 +7,6 @@ export default function Body() {
     randomImage: "",
   });
 
-  // NASA API
-  // fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
-  //   .then((res) => res.json())
-  //   .then((data) => console.log(data));
-
   const [allImages, setAllImages] = React.useState([]);
 
   React.useEffect(() => {
